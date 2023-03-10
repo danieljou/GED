@@ -1,0 +1,55 @@
+header{
+    background-color: rgb(255, 179, 38);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+header .title{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 20px;
+    width: 20%;
+}
+header .items{
+    display: flex;
+}
+header .items .item{
+    margin: 20px;
+    float: right;
+    font-weight: bold;
+}
+header .items .item:hover{
+    cursor: pointer;
+    transition: .7s;
+    border-radius: 3px;
+    color: white;
+    
+}
+.stats{
+    margin-left: 20px;
+
+}
+
+.elements{
+    display: flex;
+    padding: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.445);
+    margin: 12px;
+    margin-top: 40px;
+}
+.elements .nom{
+   float: left;
+   padding: 12px;
+   width: 50%;
+}
+
+.elements .valeur{
+    float: right;
+    padding: 12px;
+    width: 50%;
+    color: goldenrod;
+    
+ }

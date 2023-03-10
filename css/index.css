@@ -1,0 +1,142 @@
+header{
+    background-color: rgb(255, 179, 38);
+    padding: 12px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    ;
+    
+ 
+    
+
+}
+#click:checked ~ .main-menu {
+    margin-right: 0;
+}
+.main-menu{
+    width: 30%;
+    float: right;
+    padding: 12px;
+    display: flex;
+
+    
+}
+
+.main-menuV{
+    width: 30%;
+    float: right;
+
+    padding: 12px;
+    display: flex;
+    /* visibility: hidden; */
+    
+    
+
+}
+.login{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+
+   
+}
+.login .text{
+    padding: 12px;
+}
+.login .text:hover{
+    border: solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.main-menu-active{
+    visibility: visible;
+}
+.title{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.option .btn{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 30px;
+   
+
+}
+.option:hover{
+    cursor: pointer;
+}
+section{
+    background-color: rgb(226, 216, 226);
+    margin-top: 250px;
+    padding: 12px;
+    width: 100%;
+    transition: 3s;
+    background-color: lemonchiffon;
+}
+.comment{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+}
+.comment .image{
+    width: 40%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+
+}
+.comment .image img{
+    width: 40%;
+    border-radius: 20px;
+}
+.comment .text{
+    width: 60%;
+    font-size: 40px;
+    font-family: Elephant;
+    text-align: justify;
+    transition: 4s;
+    animation: slide-left 1s;
+
+
+   
+   
+}
+
+
+
+
+@keyframes slide-left {
+    from{
+        opacity: 0;
+        margin-left: -500px;
+        
+    }
+
+    to{
+        opacity: 1;
+        margin-left: initial;
+    }
+}
+
+@keyframes slide-down {
+    from{
+        opacity: 0;
+        margin-top: -700px;
+        transform: scale(0.2);
+        
+    }
+
+    to{
+        opacity: 1;
+        margin-top: initial;
+        transform: scale(1);
+    }
+}
